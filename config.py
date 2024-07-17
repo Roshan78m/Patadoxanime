@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7067972319:AAEJDQGtoLwomyZjtlQTrKMBVFzoZtkrE6Y")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7070637536:AAEaEyy0nak4GduXkE4QMrQVzpStceAhcwU")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26977508"))
 
@@ -18,7 +18,7 @@ APP_ID = int(os.environ.get("APP_ID", "26977508"))
 API_HASH = os.environ.get("API_HASH", "396589629e6705c592bc7fe891dc6e37")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002056631696"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002019360427"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6193451722"))
@@ -27,15 +27,15 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6193451722"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animewide:4OcUENyZ1cxvhNTZ@cluster0.xhq9dp8.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://yukinoriultra:RO3gYDQ5kvEEzNVr@cluster0.mseaqva.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001613294962"))
 FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001967719718"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002111868179"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1001942340123"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "𝐇𝐢 𝐃𝐮𝐝𝐞.. {first}\n\n𝐈 𝐀𝐦 𝐚 𝐅𝐢𝐥𝐞-𝐒𝐭𝐨𝐫𝐞 𝐛𝐨𝐭\n𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐚 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐥𝐢𝐧𝐤..!")
